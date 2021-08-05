@@ -1,0 +1,117 @@
+.caption {
+  padding-left: 7.5%;
+  margin: 10% 0;
+}
+
+@media (min-width: 2000px) {
+  .caption {
+    padding: .5% 15%;
+  }
+}
+
+@media (min-width: 4000px) {
+  .caption {
+    padding: .5% 30%;
+  }
+}
+
+.caption h1 {
+  color: white;
+  font-weight: 600;
+  font-size: 40px;
+  width: 50%;
+  padding: 0; margin: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .caption h1 {
+    font-size: calc(40px + 170 * ((100vw - 1024px) / 2976));
+  }
+}
+
+@media screen and (min-width: 4000px) {
+  .caption h1 {
+    width: 70%;
+    font-size: 210px;
+  }
+}
+
+.caption p {
+  font-size: 12px;
+  font-weight: 400;
+  opacity: 0.75;
+  width: 40%;
+  padding: 20px 0 20px 0;
+  color: white;
+  line-height: 1.5;
+}
+
+@media screen and (min-width: 1024px) {
+  .caption p {
+    font-size: calc(12px + 30 * ((100vw - 1024px) / 2976));
+  }
+}
+
+@media screen and (min-width: 4000px) {
+  .caption p {
+    font-size: 42px;
+  }
+}
+
+.caption span {
+  color: #6163ff !important;
+}
+
+.caption a {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: white;
+  color: #0f0f0f;
+  border-radius: 5px;
+  padding: 15px 30px;
+  border: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .caption a {
+    font-size: calc(16px + 24 * ((100vw - 1024px) / 2976));
+  }
+}
+
+@media screen and (min-width: 4000px) {
+  .caption a {
+    font-size: 32px;
+  }
+}
+
+.caption a:hover {
+  background-color: #6163ff;
+  color: white;
+  transition: .5s;
+}
+
+.image {
+  justify-self: right;
+}
+
+@media (max-width: 768px) {
+  .caption h1, .caption p {
+    width: 70%;
+  }
+}
+
+@media (max-width: 576px) {
+  .caption {
+    padding: 15% 10%;
+  }
+  
+  .caption h1, .caption p {
+    width: 100%;
+  }
+  .caption a {
+    font-size: 10px;
+    padding: 7.5px 20px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

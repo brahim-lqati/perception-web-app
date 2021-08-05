@@ -1,0 +1,15 @@
+.landing {
+    height: fit-content; width: 100%;
+    background-image: url("https://images.unsplash.com/photo-1618748204466-5d246c55a89a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=700&q=80");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.overlay {
+    height: fit-content; width: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    background: linear-gradient(63.53deg, #5759DD -26.12%, rgba(15, 15, 15, 0.5) 97.91%);;
+}

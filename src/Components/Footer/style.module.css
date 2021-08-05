@@ -1,0 +1,129 @@
+footer {
+  padding: 5% 7.5% 2% 7.5%;
+  background: #07083C;
+  color: white;
+}
+
+.media {
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+}
+
+.media a {
+  color: white;
+}
+
+.company {
+  padding-right: 20%;
+}
+
+.company img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.companyText {
+  font-size: 1.15rem;
+  font-weight: 400;
+  opacity: 0.75;
+}
+
+.social-media i {
+  margin-right: 10px;
+  font-size: 1.25rem;
+}
+
+.section {
+  letter-spacing: 1.15;
+}
+
+.smallTitle {
+  font-weight: 700;
+  font-size: 1.45rem;
+}
+
+.links {
+  padding-top: 10px;
+}
+
+.links a {
+  text-decoration: none;
+  color: white;
+  opacity: 0.5;
+  display: block;
+  font-size: 1.2rem;
+}
+
+.links a:hover {
+  opacity: 1;
+}
+
+.dot {
+  color: #6163ff;
+}
+
+.hr {
+  margin: 20px 0;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+}
+
+.copyright {
+  font-size: 1.05rem;
+  opacity: 0.8;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.logo {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 10% 10% 2% 10%;
+    color: white;
+  }
+  .wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1.5fr 1fr;
+    grid-template-columns: 1.5fr 1fr;
+    grid-gap: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .wrapper {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+  .company img {
+    width: 100%;
+  }
+  .smallTitle {
+    font-size: 1.25rem;
+    margin-top: 10px;
+  }
+  .links a {
+    font-size: 1rem;
+  }
+
+  .companyText {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: 0.75;
+  }
+  footer {
+    padding: 10% 10% 2% 10%;
+    color: white;
+  }
+}

@@ -1,0 +1,67 @@
+.nav {
+  margin: 0;
+  padding: 15px 7.5%;
+  background-color: transparent;
+}
+
+@media (min-width: 2000px) {
+  .nav {
+    padding: 15px 15%;
+  }
+}
+
+@media (min-width: 4000px) {
+  .nav {
+    padding: 15px 30%;
+  }
+}
+
+.logo {
+  height: 1.5rem;
+}
+
+.links {
+  justify-content: flex-end;
+}
+
+.link {
+  margin: 10px 0 10px 40px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: 300;
+  display: block;
+  opacity: .5;
+}
+
+.active {
+  opacity: 1;
+}
+
+.menuDark {
+  background-position: center;
+  background-size: 100%;
+  padding: 10px;
+  outline: white;
+}
+
+.link:hover {
+  color: white;
+  opacity: 1;
+}
+
+@media (max-width: 1024px) {
+  .link,
+  .btnbuy {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo {
+    height: 1rem;
+  }
+  .nav {
+    padding: 15px 10%;
+  }
+}
